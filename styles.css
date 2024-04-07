@@ -1,0 +1,48 @@
+:root{
+    --Background: #010011;
+    --white: #FFFFFF;
+    --grayWhite: #728894;
+    --mildWhite: #D2E9F6;
+    --green: #09E62D;
+}
+
+
+
+
+body{
+    height: 100vh;
+    background-color: var(--Background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcome > img{
+    width: 80px;
+    height: 80px;
+}
+
+.welcome > h4{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--white);
+    margin-top: 16px;
+}
+
+.welcome > h4 span{
+    color: var(--green);
+}
